@@ -69,6 +69,14 @@ one node out of a small pool behind a load balancer becoming unreachable,
 so a fixed fraction of requests routed to that node fail while the rest go
 through fine.
 
+## Visual summary
+
+![Checkout volume — success vs failed](checkout_volume.png)
+
+![Failure rate over time](failure_rate.png)
+
+![Error types by hour](error_types_hourly.png)
+
 ## 4. How many distinct users were affected?
 
 **2,335 distinct users** (`user_id` values) had at least one `/checkout`
